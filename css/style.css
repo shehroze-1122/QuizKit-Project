@@ -1,0 +1,257 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    color: rgb(56, 56, 56);
+    padding: 15px 0px;
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:none;
+}
+h2{
+    font-weight: bold;
+}
+
+/* *************************************** NAVBAR ************************************************ */
+.navbar-brand{
+    font-size: 27px;
+    font-weight: bold;
+}
+.navbar-nav{
+    margin-left: auto !important;
+    margin-right: 30px;
+}
+.nav-item{
+    padding:0px 15px !important ;
+    margin-left: 5px;
+}
+.nav-link{
+    font-size: 18px;
+}
+.dropdown-menu{
+    margin-top: 10px !important;
+}
+.dropdown-menu a{
+    color: #fff;
+}
+
+/* ******************************************** HEADER ***************************************************** */
+.header{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url('../images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.header h1{
+    color: #fff;
+    font-size: 75px;
+}
+.header p{
+    color: #fff;
+    font-size: 20px;
+}
+.header a{
+    border: 1.5px solid #fff;
+    margin: 0px 5px;
+    padding:10px 30px;
+    border-radius:100px;
+    outline: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    text-align: center;
+}
+.header a:nth-child(1){
+    background:rgb(0, 255, 170);
+    color: #000;
+    border: none;
+}
+.header a:nth-child(1):hover{
+    background:rgb(2, 228, 152)
+}
+.header a:hover{
+    border: none;
+    background:rgb(0, 255, 170);
+    color: #000;
+}
+
+/* ******************************************** GET STARTED ******************************************************** */
+
+.get-started{
+    margin:100px 0px;
+    padding: 20px;
+}
+
+.prog-languages{
+    margin-left: 20px;
+}
+.prog-languages li{
+    padding: 10px 0px;
+}
+
+/* ********************************************* FOOTER ***************************************************************** */
+.footer-sec{
+    background: rgb(43, 42, 42);
+    color: #fff;
+    padding: 20px 0px;
+}
+.footer-sec h2{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(0, 255, 170) 
+}
+.footer-sec p{
+    color: #fff;
+}
+.footer-sec ul li{
+    list-style:none;
+    padding: 6px 0px;
+}
+.footer-column{
+    padding: 10px;
+}
+.footer-column a{
+    color: #fff;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.contact-us i,.dropdown-toggle,.in-touch{
+    color:rgb(0, 255, 170) !important;
+}
+.contact-us label{
+    margin-left: 5px;
+    margin-top: 7px;
+}
+.footer-practice-links{
+    background: none;
+}
+
+
+.footer-icons a{
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.footer-icons a:hover{
+    color: #000;
+    background:rgb(0, 255, 170);
+}
+.footer-dropdown{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.footer-dropdown-link{
+    padding-left: 0px !important;
+}
+.copyright{
+    margin-top: 30px;
+}
+.copyright p{
+    padding-bottom: 0px !important;
+    margin-bottom: -5px !important;
+}
+
+/* ******************************************* MCQS ****************************************************** */
+.mcqs{
+    padding: 50px 0px;
+    margin: 0px 0px 150px 0px;
+}
+.mcqs p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.heading h2{
+    font-size: 2.5rem;
+}
+.heading p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.question{
+    margin: 40px 0px;
+}
+.question div{
+    cursor: pointer;
+}
+.right-option-bg{
+    background: rgba(0,255,0,0.2);
+}
+.wrong-option-bg{
+    background: rgba(255,0,0,0.2);
+}
+
+.questions button{
+    margin-top: 30px;
+}
+
+.form-check{
+    padding: 10px 0px;
+}
+.btn{
+    padding:5px 15px ;
+    font-size: 1.5rem;
+}
+.submit-results div{
+    padding: 10px;
+}
+.btn:hover{
+    color: rgb(0, 255, 170);
+}
+.result p{
+    background: rgb(43, 42, 42);
+    border-radius: 10px;
+    padding: 15px 0px;
+    margin: 5px 0px;
+    color:rgb(0, 255, 170) ;
+    font-size: 1.5rem;
+}
+.result p span{
+    color: #fff;
+}
+.result p:hover{
+    background:rgb(0, 255, 170) ;
+    color: rgb(43, 42, 42);
+}
+.result p:hover span{
+    color: rgb(43, 42, 42);
+}
+
+.code{
+    background: rgb(233, 232, 232);
+    padding: 20px;
+}
+.indent{
+    margin-left: 20px;
+}
+/* *************************************** MEDIA QUERIES ************************************************ */
+@media(max-width:768px){
+    .links{
+        justify-content: flex-start;
+    }
+    .footer-column{
+        padding: 20px 7px;
+    }
+    .dropdown{
+        height: auto;
+    }
+
+
+}

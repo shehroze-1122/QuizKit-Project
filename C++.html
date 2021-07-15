@@ -1,0 +1,217 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <title>QuizKit</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"><i class="fa fa-code"></i> QUIZKIT</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer-sec">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Start Practicing
+                  </a>
+                  <div class="dropdown-menu bg-dark " aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="python.html">Python</a>
+                    <a class="dropdown-item" href="javascript.html">Javascript</a>
+                    <a class="dropdown-item   active" href="C++.html">C++</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+
+        <section class="mcqs">
+            <div class="container">
+                <div class="heading">
+                    <h2>C++ Quiz</h2>
+                    <p>Total Questions: 5</p>
+
+                </div>
+                <form onsubmit="return false;">
+                    <div class="questions">
+                        <div class="question">
+                            <p>1) Choose the respective delete operator usage for the expression ‘ptr=new int[100]’.</p>
+
+                            <div class="form-check form-check-inline d-block">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox1" name="q1" value="1" required>delete ptr[];
+                            </div>
+                            <div class="form-check form-check-inline d-block">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox2" name="q1" value="2" required>delete[] ptr;
+                            </div>   
+                        </div>
+
+                        <div class="question">
+                            <p>2) Objects created using new operator are stored in which memory.</p>
+
+                            <div class="form-check form-check-inline d-block">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox1" name="q2" value="1" required>Heap
+                            </div>
+                            <div class="form-check form-check-inline d-block">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox2" name="q2" value="2" required>Stack
+                            </div>   
+                        </div>
+
+                        <div class="question">
+                            <p>3) An inline function can execute faster than a normal function</p>
+
+                            <div class="form-check form-check-inline d-block">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox1" name="q3" value="1" required>True
+                            </div>
+                            <div class="form-check form-check-inline d-block">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox2" name="q3" value="2" required>False
+                            </div>   
+                        </div>
+
+                        
+                        <div class="question">
+                            <p>4) What is the output of the following program??</p>
+                            <div class="code">
+                                <span>#include</span>
+                                <span>&lt;iostream&gt;</span>
+                                    <br>
+                                    <br>
+                                <span class="d-block">using namespace std;</span>
+                                <span class="d-block">void main() {</span>
+                                <span class="d-block  indent">char *s = "C++";</span> 
+                                <span class="indent">cout</span> 
+                                <span><<</span>
+                                <span class="indent">s<<</span>
+                                <span>" ";</span>
+                                <span class="d-block indent">s++;</span>
+                                <span>}</span>
+                            </div>
+
+                            <div class="form-check form-check-inline d-block">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox1" name="q4" value="1" required>C++ ++
+                            </div>
+                            <div class="form-check form-check-inline d-block">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox2" name="q4" value="2" required>C++ C++
+                            </div>   
+                        </div>
+
+                        <div class="question">
+                            <p>5) i) single file can be opened by several streams simultaneously.
+
+                            <span class="d-block">ii) several files simultaneously can be opened by a single stream</span> </p>
+
+                            <div class="form-check form-check-inline d-block">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox1" name="q5" value="1" required>(i) and (ii) are true
+                            </div>
+                            <div class="form-check form-check-inline d-block">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox2" name="q5" value="2" required>Only (i) is true
+                            </div>   
+                        </div>                            
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <button type="submit" class="btn btn-dark" id="submit-btn" onclick="cppMcqs()">Submit</button>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <div class="result text-center">
+                                <p>Your Score:
+                                    <span id="marks">-/5</span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer-sec" id="footer-sec" >
+            <div class="container">
+                <div class="row footer-column">
+                    <div class="col-lg-4 col-md-6 col-12 footer-column">
+                        <h2>CONTACT</h2>
+                        <p>If you feel anything as incorrect, please do let us know through these channels:</p>
+                        <div class="contact-us">
+                            <i class="fa fa-envelope"></i>
+                            <label for="email"> stalat.bee19seecs@seecs.edu.pk</label>
+                            <br>
+                            <i class="fa fa-phone"></i>
+                            <label for="phone">+92 3492501150</label>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 links footer-column">
+                        <div>
+                            <h2>LINKS</h2>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li class="nav-item dropdown footer-dropdown">
+                                    <a class="nav-link dropdown-toggle footer-dropdown-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Start Practicing
+                                    </a>
+                                    <div class="dropdown-menu bg-dark " aria-labelledby="navbarDropdownMenuLink">
+                                      <a class="dropdown-item" href="python.html">Python</a>
+                                      <a class="dropdown-item" href="javascript.html">Javascript</a>
+                                      <a class="dropdown-item  active" href="C++.html">C++</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 footer-column">
+                        <h2>ABOUT</h2>
+                        <p>Committed and self-motivated Electrical Engineering student, capable of working under pressure. Currently part of two international organizations working in different roles, leading teams in multiple
+                            portfolios, part of the think-tank of events organized. Maintaining a good academic record while
+                            building up my skills as a software developer.
+                        </p>
+                        <p class="in-touch">Get in touch for projects and collaboration</p>
+                        <div class="container">
+                            <div class="row footer-icons">
+                                <div class="col-3">
+                                    <a href="https://www.linkedin.com/in/shehroze-talat-2646a6197/" target="blank" class="fa-2x fa fa-linkedin"></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href="https://github.com/shehroze-1122" target="blank" class="fa-2x fa fa-github"></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href="#" class="fa-2x fa fa-instagram"></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href="#" class="fa-2x fa fa-facebook"></a>
+                                </div>
+        
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="text-center">Copyright &copy QuizKit 2021 All rights reserved | Made with love by Shehroze Talat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+
+        <script src="javascript/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>        
+    </body>
+</html>
