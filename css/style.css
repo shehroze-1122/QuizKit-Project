@@ -244,6 +244,7 @@ h2{
 }
 /* *************************************** MEDIA QUERIES ************************************************ */
 @media(max-width:768px){
+
     .links{
         justify-content: flex-start;
     }
@@ -254,5 +255,12 @@ h2{
         height: auto;
     }
 
+
+}
+
+@media(max-width:1240px){
+    .footer-sec{
+        height: auto;
+    }
 
 }
