@@ -1,17 +1,17 @@
 
 const options = document.querySelectorAll('.form-check');
-const input = document.querySelectorAll('.form-check-input');
+const inputs = document.querySelectorAll('.form-check-input');
 for(let i=0;i<options.length;++i){
     options[i].addEventListener('click',function(){
-        input[i].checked = true;
+        inputs[i].checked = true;
     })
 }
+console.log(input.length)
 
 
 function marking(answers){
 
-    const submitButton = document.getElementById('submit-btn');
-    const inputs = document.getElementsByTagName('input');
+    console.log(inputs.length)
     let score = 0;
     let ind = 0;
     let newIndex = 0;
@@ -67,4 +67,14 @@ function javascriptMcqs(){
 function cppMcqs(){
     let answers = [2, 1, 1, 1, 2];
     marking(answers);
+}
+
+function clearMarked(){
+    for(let i=0;i<inputs.length;++i){
+        inputs[i].checked=false;
+        inputs[i].parentNode.classList.remove("right-option-bg");
+        inputs[i].parentNode.classList.remove("wrong-option-bg");
+
+    }
+
 }
